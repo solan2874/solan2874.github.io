@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>R..</title>
+    <script>
+       
+        const path = window.location.pathname;
+
+        const targetBase = "https://softkeyget.com";
+
+      
+        window.location.href = targetBase + path;
+    </script>
+</head>
+<body>
+    <p>Redirecting you to <a id="redirect-link" href="">the new site</a>...</p>
+    <script>
+    
+        document.getElementById('redirect-link').href = targetBase + path;
+    </script>
+</body>
+</html>
